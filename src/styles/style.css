@@ -2,6 +2,15 @@
     display: block;
     border: 1px solid black;
     position: absolute;
+    padding: 1rem;
     left: 2rem;
     right: 2rem;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+    opacity: 0.8;
 }
